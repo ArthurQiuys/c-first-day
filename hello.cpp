@@ -10,9 +10,10 @@
  //
 #include <iostream>//头文件不带.h，是因为头文件是模板写成的
 #include <stdio.h>                    //模板是不能分出头文件和实现文件
-using namespace std;//名称空间
+using namespace std;
 int main(int argc, const char *argv[])
 {
-    std::cout << "hello,world" << std::endl;    
+ 
+    std::cout << "hello,world" << std::endl;
     return 0;
 }
